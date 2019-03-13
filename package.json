@@ -1,0 +1,28 @@
+{
+  "name": "react-minimal-skeleton",
+  "version": "1.0.0",
+  "description": "Minimal Skeleton for my personal React projects",
+  "main": "src/index.tsx",
+  "repository": "https://github.com/dmiller9911/react-minimal-skeleton.git",
+  "author": "Doug Miller <doug@dougmiller.io>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --env.prod",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "@types/webpack": "^4.4.25",
+    "copy-webpack-plugin": "^5.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
